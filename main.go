@@ -7,7 +7,7 @@ import (
 )
 // Sample app
 func handler(w http.ResponseWriter, r *http.Request) {
-	title := "Allcloud DOE containers canary demo master branch - staging V1.0"
+	title := "Allcloud DOE containers canary demo master branch - staging v1.1"
 
 	from := ""
 	if r.URL != nil {
