@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 )
-
+// Sample app
 func handler(w http.ResponseWriter, r *http.Request) {
 	title := "Allcloud Demo app canary production release V1.0"
 
